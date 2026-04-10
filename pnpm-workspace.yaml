@@ -1,1 +1,3 @@
+allowBuilds:
+  '@sentry/cli': true
 nodeLinker: hoisted

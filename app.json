@@ -42,8 +42,7 @@
       "expo-font",
       "expo-image",
       "expo-localization",
-      "expo-tracking-transparency",
-      "@sentry/react-native"
+      "expo-tracking-transparency"
     ],
     "extra": {
       "eas": {
