@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "eas-cloud-build-fail",
-    "slug": "eas-cloud-build-fail",
+    "slug": "eas-playground",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,17 +13,49 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expo.app.easplayground",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "com.google.android.gms.permission.AD_ID",
+        "com.google.android.gms.permission.AD_ID"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser",
+      "expo-router",
+      "expo-asset",
+      "expo-splash-screen",
+      "@sentry/react-native/expo",
+      "expo-font",
+      "expo-image",
+      "expo-localization",
+      "expo-tracking-transparency",
+      "@sentry/react-native"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e16eba60-af50-4a61-9cc5-38618016efa2"
+      }
+    },
+    "owner": "expo.app",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e16eba60-af50-4a61-9cc5-38618016efa2"
     }
   }
 }

@@ -9,10 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~54.0.33",
-    "expo-status-bar": "~3.0.9",
-    "react": "19.1.0",
-    "react-native": "0.81.5"
+    "@sentry/react-native": "~7.11.0",
+    "expo": "~55.0.13",
+    "expo-asset": "~55.0.14",
+    "expo-dev-client": "~55.0.24",
+    "expo-font": "~55.0.6",
+    "expo-image": "~55.0.8",
+    "expo-localization": "~55.0.13",
+    "expo-router": "~55.0.11",
+    "expo-splash-screen": "~55.0.17",
+    "expo-status-bar": "~55.0.5",
+    "expo-tracking-transparency": "~55.0.13",
+    "expo-updates": "~55.0.20",
+    "expo-web-browser": "~55.0.14",
+    "react": "19.2.0",
+    "react-native": "0.83.4"
   },
   "private": true
 }
